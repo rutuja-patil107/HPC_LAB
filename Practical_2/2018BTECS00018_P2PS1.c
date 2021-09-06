@@ -1,4 +1,4 @@
-//2018BTECS00060
+//2018BTECS00018
 //Addition of 2 vectors SPMD
 
 #include <stdlib.h>  

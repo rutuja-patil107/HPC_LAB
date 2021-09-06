@@ -1,4 +1,4 @@
-//2018BTECS00060
+//2018BTECS00018
 //Addition of a scalar and a vector Work Sharing
 
 #include <stdlib.h>  

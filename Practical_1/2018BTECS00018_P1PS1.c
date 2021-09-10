@@ -1,17 +1,13 @@
 #include<stdio.h>
 
-int main( int ac, char **av)
-
+int main()
 {
+	
+	#pragma omp parallel 
+	{
+		printf("2018BTECS00018\n");
+	}
 
-#pragma omp parallel // specify the code between the curly brackets is part of an OpenMP parallel section.
-
-{
-
-	printf("2018BTECS00018\n");
-
-}
-
-return 0;
+	return 0;
 
 }

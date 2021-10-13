@@ -1,0 +1,9 @@
+## first prg
+
+mpicc hello.c -o hello
+mpirun --hostfile hostfile -np 15 hello
+
+## second prg
+
+mpicc -o second second.c
+mpirun --hostfile hostfile -np 10 second
